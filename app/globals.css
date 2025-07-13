@@ -24,3 +24,29 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@font-face {
+  font-family: 'Chunk';
+  src: url('/fonts/Chunk.ttf') format('truetype'),
+       url('/fonts/Chunk.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Chunk Five Print';
+  src: url('/fonts/Chunk Five Print.ttf') format('truetype'),
+       url('/fonts/Chunk Five Print.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-chunk {
+  font-family: 'Chunk', serif;
+}
+
+.font-chunk-five {
+  font-family: 'Chunk Five Print', serif;
+}
